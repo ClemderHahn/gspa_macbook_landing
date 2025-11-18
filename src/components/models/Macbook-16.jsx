@@ -10,7 +10,7 @@ Title: macbook pro M3 16 inch 2024
 
 import { useGLTF } from '@react-three/drei'
 import { useTexture } from '@react-three/drei'
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { noChangeParts } from '../../constants';
 import { Color } from 'three';
 import useMacbookStore from '../../store';
